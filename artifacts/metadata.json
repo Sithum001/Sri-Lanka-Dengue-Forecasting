@@ -1,0 +1,42 @@
+{
+  "district": "Colombo",
+  "last_observed_date": "2025-12-13",
+  "next_week_date": "2025-12-20",
+  "features": [
+    "cases_lag_1",
+    "cases_lag_2",
+    "cases_lag_3",
+    "cases_lag_4",
+    "cases_lag_8",
+    "cases_lag_12",
+    "cases_lag_26",
+    "cases_lag_52",
+    "rainfall_mm_lag_1",
+    "rainfall_mm_lag_2",
+    "rainfall_mm_lag_4",
+    "temp_avg_c_lag_1",
+    "temp_avg_c_lag_2",
+    "temp_avg_c_lag_4",
+    "humidity_pct_lag_1",
+    "humidity_pct_lag_2",
+    "humidity_pct_lag_4",
+    "cases_roll_4",
+    "cases_roll_8",
+    "cases_roll_12",
+    "week_sin",
+    "week_cos"
+  ],
+  "rf_blend_weight": 0.5,
+  "next_week_tabular_predictions": {
+    "Random Forest": 325.2754034184769,
+    "Bagging": 347.8888888888889,
+    "Extra Trees": 326.65861111111116,
+    "XGBoost": 354.9184265136719,
+    "LightGBM": 315.99690606554304,
+    "CatBoost": 340.95794654815643,
+    "ANN": 536.6343994766327,
+    "Stacking": 421.3849356903868,
+    "RF + ANN": 430.9549014475548
+  },
+  "best_test_model": "RF + ANN"
+}
